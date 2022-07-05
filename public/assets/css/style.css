@@ -254,7 +254,7 @@ ol {
 -----------------------*/
 
 .header {
-	background: #ffffff;
+	background-color: #9eccbf;
 	-webkit-box-shadow: 0px 5px 10px rgba(91, 91, 91, 0.1);
 	box-shadow: 0px 5px 10px rgba(91, 91, 91, 0.1);
 }
@@ -340,10 +340,15 @@ ol {
 	display: none;
 }
 
+
+.header__menu ul{
+	margin: 0;
+}
+
 .header__menu ul li a {
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #111111;
+	color: #333;
 	font-weight: 500;
 	display: block;
 	padding: 2px 0;
@@ -366,6 +371,11 @@ ol {
 	transform: scale(0);
 }
 
+.header__dis{
+	display: flex;
+	align-items: center;
+}
+
 .header__right {
 	text-align: right;
 	padding: 30px 0 27px;
@@ -378,7 +388,7 @@ ol {
 
 .header__right__auth a {
 	font-size: 16px;
-	color: #666666;
+	color: #444;
 	position: relative;
 	margin-right: 16px;
 	text-decoration: none;
@@ -798,7 +808,8 @@ ol {
 -----------------------*/
 
 .footer {
-	padding-top: 55px;
+	padding-top: 155px;
+	background-color: #b2d6cc;
 }
 
 .footer__about {
